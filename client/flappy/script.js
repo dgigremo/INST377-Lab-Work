@@ -11,7 +11,14 @@ document.addEventListener('DOMContentLoaded' , () => {
     function startGame() {
         birdBottom -= gravity
         bird.style.bottom = birdBottom + 'px'
-        bird,style.left = birdLeft + 'px'
+        bird.style.left = birdLeft + 'px'
     }
     let timerId = setInterval(startGame, 20)
+
+
+    function jump() {
+        birdBottom += 50
+        bird.style.bottom = birdBottom + 'px'
+    }
+    document.addEventListener('keyup', jump)
 })
