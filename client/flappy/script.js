@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded' , () => {
             obstacleLeft -= 2
             obstacle.style.left = obstacleLeft + 'px'
         }
-        let timerId = setInterval(moveObstacle, 100)
+        let timerId = setInterval(moveObstacle, 20)
     }
+    generateObstacle()
 })
