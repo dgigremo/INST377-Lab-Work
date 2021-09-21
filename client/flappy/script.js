@@ -50,12 +50,15 @@ document.addEventListener('DOMContentLoaded' , () => {
                 clearInterval(timerId)
                 gameDisplay.removeChild(obstacle)
             }
-            if (birdBottom === 0) {
+            if (
+                obstacleLeft > 200 && obstacleLeft < 280 && birdLeft === 220 ||
+                birdBottom === 0
+                ) {
                 gameOver()
             }
         }
         let timerId = setInterval(moveObstacle, 20)
-        setTimeout(generateObstacle, 3000)
+        if (!isGameOver) setTimeout(generateObstacle, 3000)
 
     }
     generateObstacle()
@@ -63,6 +66,7 @@ document.addEventListener('DOMContentLoaded' , () => {
 
     function gameOver() {
         clearInterval(gameTimerId)
+        console.log('game over')
         isGameOver = true
         document.removeEventListener('keyup', control)
     }
