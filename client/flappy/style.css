@@ -10,28 +10,28 @@ body {
 }
 
 .border-left {
-    width: 80px;
-    height:auto 790px;
+    width: 100px;
+    height: 790px;
     position: absolute;
     background-color: white;
-    z-index: +2;
+    z-index: +3;
 }
 
 .border-right {
-    width: 80px;
-    height:auto 790px;
+    width: 100px;
+    height: 790px;
     position: absolute;
     background-color: white;
-    z-index: +2;
+    z-index: +3;
     left: 580px;
 }
 
 .border-top {
-    width: 660px;
+    width: 800px;
     height: 50px;
     position: absolute;
     background-color: white;
-    z-index: +2;
+    z-index: +3;
     top: -50px
 }
 
