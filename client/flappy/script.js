@@ -41,32 +41,19 @@ document.addEventListener('DOMContentLoaded' , () => {
         obstacle.style.left = obstacleLeft + 'px'
         obstacle.style.bottom = obstacleBottom + 'px'
 
+        function moveObstacle() {
+            obstacleLeft -=2
+            obstacle.style.left = obstacleLeft + 'px'
+
+            if (obstacleLeft === -60) {
+                clearInterval(timerId)
+                gameDisplay.removeChild(obstacle)
+            }
+        }
+        let timerId = setInterval(moveObstacle, 20)
+
     }
     generateObstacle()
 
-    // function generateObstacle() {
-    //     let obstacleLeft = 500
-    //     let randomHeight = Math.random() * 60
-    //     let obstacleBottom = randomHeight
-    //     const obstacle = document.createElemtent('div')
-    //     obstacle.classList.add('obstacle')
-    //     gameDisplay.appendChild(obstacle)
-    //     obstacle.style.left = obstacleLeft + 'px'
-    //     obstacle.style.bottom = obstacleBottom + 'px'
 
-    //     function moveObstacle() {
-    //         obstacleLeft -= 2
-    //         obstacle.style.left = obstacleLeft + 'px'
-
-    //         if (obstacleLeft === -60) {
-    //             clearInterval(timerId)
-    //             gameDisplay.removeChild(obstacle)
-    //         }
-    //     }
-    //     let timerId = setInterval(moveObstacle, 20)
-    //     setTimeout(generateObstacle, 3000)
-    // }
-    // generateObstacle()
-
-    
 })
