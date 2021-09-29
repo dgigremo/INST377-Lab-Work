@@ -3,13 +3,13 @@ const slides = document.querySelectorAll('.carousel_item');
 const totalSlides = slides.length;
 
 document.
-    querySelector('carousel_button--next')
+    querySelector('#carousel_button--next')
     .addEventListener("click", function() {
         moveToNextSlide();
     });
 
 document.
-    querySelector('carousel_button--prev')
+    querySelector('#carousel_button--prev')
     .addEventListener("click", function() {
         moveToPrevSlide();
     });
