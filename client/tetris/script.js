@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let nextRandom = 0
   let timerId
 
+  
   //The Tetrominoes
   const lTetromino = [
     [1, width + 1, width * 2 + 1, 2],
@@ -54,9 +55,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentPosition = 4
   let currentRotation = 0
 
+
   //randomly select a Tetromino and its first rotation
   let random = Math.floor(Math.random() * theTetrominoes.length)
   let current = theTetrominoes[random][currentRotation]
+
 
   //draw theTetromino
   function draw() {
@@ -64,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
       squares[currentPosition + index].classList.add("tetromino")
     })
   }
+
 
   //undraw the Tetromino
   function undraw() {
@@ -73,7 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   //make the tetromino move down every second
-  timerId = setInterval(moveDown, 1000)
+  //timerId = setInterval(moveDown, 1000)
+
 
   //assign functions to keyCodes
   function control(e) {
@@ -88,6 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   document.addEventListener("keyup", control)
+
 
   //move down function
   function moveDown() {
@@ -170,6 +176,7 @@ const displaySquares = document.querySelectorAll('.mini-grid div')
 const displayWidth = 4
 let displayIndex = 0
 
+
 //the Tetrominoes without rotations
 const upNextTetrominoes = [
     [1, displayWidth+1, displayWidth*2+1, 2], //lTetromino
@@ -178,6 +185,7 @@ const upNextTetrominoes = [
     [0, 1, displayWidth, displayWidth+1], //oTetromino
     [1, displayWidth+1, displayWidth*2+1, displayWidth*3+1] //iTetromino
 ]
+
 
 //display the shape in the mini-grid display
 function displayShape() {
