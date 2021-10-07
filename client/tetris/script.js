@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function draw() {
     current.forEach((index) => {
       squares[currentPosition + index].classList.add("tetromino")
-      squares[currentPosition +index].getElementsByClassName.backgroundColor = colors[random]
+      squares[currentPosition +index].style.backgroundColor = colors[random]
     })
   }
 
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function undraw() {
     current.forEach((index) => {
       squares[currentPosition + index].classList.remove("tetromino")
-      squares[currentPosition +index].getElementsByClassName.backgroundColor = ''
+      squares[currentPosition +index].style.backgroundColor = ''
     })
   }
 
@@ -193,7 +193,7 @@ function displayShape() {
     //remove any trace of a tetromino from the entire grid
     displaySquares.forEach(square => {
         square.classList.remove('tetromino')
-        square.style.backgroundColor =''
+        square.style.backgroundColor = ''
     })
     upNextTetrominoes[nextRandom].forEach( index => {
         displaySquares[displayIndex + index].classList.add('tetromino')
