@@ -193,7 +193,7 @@ const upNextTetrominoes = [
 function displayShape() {
     //remove any trace of a tetromino from the entire grid
     displaySquares.forEach(square => {
-        square.classList.rmeove('tetromino')
+        square.classList.remove('tetromino')
     })
     upNextTetrominoes[nextRandom].forEach( index => {
         displaySquares[displayIndex + index].classList.add('tetromino')
