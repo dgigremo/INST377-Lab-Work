@@ -96,7 +96,6 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
 }
 
 .footer-item {
@@ -170,10 +169,12 @@
 
 .carousel .carousel_actions button#carousel_button--prev {
   margin-left: 20px;
+  align-items: flex-start;
 }
 
 .carousel .carousel_actions button#carousel_button--next {
   margin-left: 20px;
+  align-items: flex-end;
 }
 
 @keyframes fadeVisibility {
