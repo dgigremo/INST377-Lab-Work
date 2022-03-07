@@ -143,10 +143,10 @@
 }
 
 .carousel .carousel_actions {
-  /* display: flex;
+  display: flex;
   width: 100%;
   justify-content: space-between;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   transform: translateY(-50%); */
 }

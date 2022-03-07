@@ -32,7 +32,7 @@ function moveToNextSlide() {
     }
 
     updateSlidePosition();
-    console.log("a");
+    console.log("b");
 }    
 
 function moveToPrevSlide() {
