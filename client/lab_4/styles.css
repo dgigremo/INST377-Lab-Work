@@ -121,6 +121,7 @@
 }
 
 .carousel {
+  display:flex;
   overflow: hidden;
   max-width: 300px;
   position: relative;
@@ -165,12 +166,10 @@
 }
 
 .carousel .carousel_actions button#carousel_button--prev {
-  display:flex;
   align-items: flex-start;
 }
 
 .carousel .carousel_actions button#carousel_button--next {
-  display: flex;
   align-items: flex-end;
 }
 
