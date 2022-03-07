@@ -104,7 +104,6 @@
   background-color: #d6e9fe;
   height: 200px;
   flex: 1;
-  font-weight: bold;
 }
 
 .footer-three {
@@ -154,8 +153,8 @@
 }
 
 .carousel .carousel_actions button {
-  border-radius: 50px;
-  border: 0;
+  border-radius: 10px;
+  border: none;
   font-weight: bold;
   cursor: pointer;
   width: 40px;
