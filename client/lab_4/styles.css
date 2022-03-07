@@ -153,6 +153,8 @@
 }
 
 .carousel .carousel_actions button {
+  display: flex;
+  justify-content: space-between;
   position: absolute;
   border: none;
   font-weight: 900;
@@ -161,8 +163,9 @@
   border-radius: 10px;
 }
 
-.carousel .carousel_actions button:active {
+.carousel .carousel_actions button:hover {
   background-color: #ffbf00;
+  transition: 0.7s;
 }
 
 .carousel .carousel_actions button#carousel_button--prev {
