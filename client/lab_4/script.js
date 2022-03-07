@@ -32,6 +32,7 @@ function moveToNextSlide() {
     }
 
     updateSlidePosition();
+    console.log("click");
 }    
 
 function moveToPrevSlide() {
@@ -42,4 +43,5 @@ function moveToPrevSlide() {
     }
 
     updateSlidePosition();
+    console.log("click");
 }    
