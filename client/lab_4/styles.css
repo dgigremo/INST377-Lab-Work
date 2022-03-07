@@ -162,7 +162,7 @@
   border-radius: 10px;
 }
 
-.carousel .carousel_actions button:hover {
+.button:hover {
   background-color: #ffbf00;
   transition: 0.7s;
 }
