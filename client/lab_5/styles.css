@@ -13,13 +13,14 @@ body {
 }
 
 .title {
-  display: inline-block;
+  display: block;
   background-color: rgba(223, 177, 79, 0.8);
 }
 
 .form-row {
   margin-bottom: 40px;
   display: flex;
+  display: inline-block;
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
