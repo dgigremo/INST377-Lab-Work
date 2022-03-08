@@ -17,6 +17,7 @@ body {
   background-color: rgba(223, 177, 79, 0.8);
   border-radius: 4px;
   height: 80px;
+  padding: 15px;
 }
 
 .form-row {
