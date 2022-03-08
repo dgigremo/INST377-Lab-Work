@@ -12,6 +12,14 @@ body {
   background-color: darkslategray;
 }
 
+.title {
+  display: inline-block;
+  background-color: rgba(223, 177, 79, 0.8);
+  border-radius: 4px;
+  padding: 40px 20px;
+  margin: 0;
+}
+
 /* Page Layout */
 .columns {
   display: flex;
