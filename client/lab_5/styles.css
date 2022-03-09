@@ -71,10 +71,11 @@ body {
 }
 
 .text {
-  margin: 15px;
+  margin: 10px 158px;
   display: inline-block;
   background-color: rgb(255, 255, 255);
   border-radius: 4px;
+  padding: 20px;
 }
 
 @media only screen and (min-width: 700px) {
