@@ -67,7 +67,7 @@ body {
   
 .legacy-form-row .radio-label,
 .legacy-form-row input[type='radio'] {
-  float: right;
+  float: left;
 }
 
 .text {
