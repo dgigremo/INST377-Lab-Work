@@ -73,9 +73,9 @@ body {
 .text {
   margin: 15px;
   display: flex;
-  display: block;
+  display: inline-block;
   background-color: rgb(255, 255, 255);
-  width: 400px;
+  /* width: 400px; */
   padding: 4px;
   justify-content: flex-start;
   flex-direction: column;
