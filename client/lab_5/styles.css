@@ -14,7 +14,7 @@ body {
 
 .title {
   display: block;
-  background-color: rgba(223, 177, 79, 0.8);
+  background-color: rgba(230, 192, 112, 0.89);
   border-radius: 4px;
   height: 80px;
   padding: 15px;
@@ -75,7 +75,7 @@ body {
   display: flex;
   display: block;
   background-color: rgb(255, 255, 255);
-  width: 150px;
+  width: 100px;
   padding: 4px;
   justify-content: flex-start;
   flex-direction: column;
@@ -100,11 +100,11 @@ body {
 }
 
 .form-row button:hover {
-  background-color: #76AEED;
+  background-color: #4ad368;
 }
 
 .form-row button:active {
-  background-color: #407FC7;
+  background-color: #20973a;
 }
 
 /* Page Layout */
