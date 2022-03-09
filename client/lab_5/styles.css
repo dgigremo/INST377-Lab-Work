@@ -116,3 +116,8 @@ body {
   max-width: 960px;
   margin-top: 25px;
 }
+
+.background {
+  height: 100%;
+  width: 100%;
+}
