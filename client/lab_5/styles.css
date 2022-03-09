@@ -38,7 +38,7 @@ body {
   border: 1px solid #D6D9DC;
   border-radius: 3px;
   width: 100%;
-  padding: 7px;
+  padding: 15px;
   font-size: 14px;
 }
 
@@ -67,7 +67,7 @@ body {
   
 .legacy-form-row .radio-label,
 .legacy-form-row input[type='radio'] {
-  float: left;
+  float: right;
 }
 
 .text {
