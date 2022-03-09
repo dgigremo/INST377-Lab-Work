@@ -47,7 +47,6 @@ body {
 
 .legacy-form-row {
   border: none;
-  margin-bottom: 40px;
 }
 
 .legacy-form-row legend {
@@ -74,8 +73,7 @@ body {
   display: flex;
   display: inline-block;
   background-color: rgb(255, 255, 255);
-  /* width: 400px; */
-  padding: 4px;
+  padding: 15px 200px 15px 15px;
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
